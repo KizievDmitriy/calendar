@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 10px;
+    &>div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.number{
+    font-size: small;
+    font-weight: bold;
+}
+.day{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
