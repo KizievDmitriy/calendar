@@ -1,16 +1,14 @@
+import React from 'react';
+import {getMonth} from '../utils/ulils'
+
+
 export const App = () => {
+  console.dir(getMonth());
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <React.Fragment>
+      
+      </React.Fragment>
     </div>
   );
 };
